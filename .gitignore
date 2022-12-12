@@ -1,0 +1,5 @@
+/.idea/*
+client_test.py
+discord.env
+gif_random_test.py
+request_message_discord.py
