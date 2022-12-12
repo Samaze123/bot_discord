@@ -1,7 +1,6 @@
 # bot.py
 import json
 import os
-import random
 import sys
 
 import requests
@@ -44,7 +43,7 @@ f
         await ctx.send(json.loads(query.content)["results"][0]["media"][0]["gif"]["url"])
 
 
-@bot.command(name="go_offline", help="Flemme de ctrl+c mon program")
+@bot.command(name="go_offline", help="quit within discord")
 async def go_offline(ctx):
     """
 f
