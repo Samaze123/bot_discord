@@ -48,7 +48,7 @@ async def go_offline(ctx):
     """
 f
     """
-    await ctx.send("Je me meurs...")
+    await ctx.send("I'm going offline")
     sys.exit()
 
 
